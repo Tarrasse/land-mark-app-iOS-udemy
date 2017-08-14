@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5F0D69C01F41ABB100099C40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D69BF1F41ABB100099C40 /* AppDelegate.swift */; };
-		5F0D69C21F41ABB100099C40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D69C11F41ABB100099C40 /* ViewController.swift */; };
 		5F0D69C51F41ABB100099C40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0D69C31F41ABB100099C40 /* Main.storyboard */; };
 		5F0D69C71F41ABB100099C40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0D69C61F41ABB100099C40 /* Assets.xcassets */; };
 		5F0D69CA1F41ABB100099C40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0D69C81F41ABB100099C40 /* LaunchScreen.storyboard */; };
 		5F0D69D51F41ABB100099C40 /* Landmark_Image_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D69D41F41ABB100099C40 /* Landmark_Image_BookTests.swift */; };
+		5F23D2C11F41ADFD0077DDA4 /* ImagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F23D2C01F41ADFD0077DDA4 /* ImagesTableViewController.swift */; };
+		5F23D2C41F41B0990077DDA4 /* pisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F23D2C21F41B0990077DDA4 /* pisa.jpg */; };
+		5F23D2C51F41B0990077DDA4 /* Pyramids.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F23D2C31F41B0990077DDA4 /* Pyramids.jpg */; };
+		5F23D2C71F41B4510077DDA4 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F23D2C61F41B4510077DDA4 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +31,6 @@
 /* Begin PBXFileReference section */
 		5F0D69BC1F41ABB100099C40 /* Landmark Image Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Landmark Image Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0D69BF1F41ABB100099C40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F0D69C11F41ABB100099C40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F0D69C41F41ABB100099C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F0D69C61F41ABB100099C40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F0D69C91F41ABB100099C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +38,10 @@
 		5F0D69D01F41ABB100099C40 /* Landmark Image BookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Landmark Image BookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0D69D41F41ABB100099C40 /* Landmark_Image_BookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark_Image_BookTests.swift; sourceTree = "<group>"; };
 		5F0D69D61F41ABB100099C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F23D2C01F41ADFD0077DDA4 /* ImagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagesTableViewController.swift; path = ../ImagesTableViewController.swift; sourceTree = "<group>"; };
+		5F23D2C21F41B0990077DDA4 /* pisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pisa.jpg; sourceTree = "<group>"; };
+		5F23D2C31F41B0990077DDA4 /* Pyramids.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pyramids.jpg; sourceTree = "<group>"; };
+		5F23D2C61F41B4510077DDA4 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +83,15 @@
 		5F0D69BE1F41ABB100099C40 /* Landmark Image Book */ = {
 			isa = PBXGroup;
 			children = (
+				5F23D2C21F41B0990077DDA4 /* pisa.jpg */,
+				5F23D2C31F41B0990077DDA4 /* Pyramids.jpg */,
+				5F23D2C01F41ADFD0077DDA4 /* ImagesTableViewController.swift */,
 				5F0D69BF1F41ABB100099C40 /* AppDelegate.swift */,
-				5F0D69C11F41ABB100099C40 /* ViewController.swift */,
 				5F0D69C31F41ABB100099C40 /* Main.storyboard */,
 				5F0D69C61F41ABB100099C40 /* Assets.xcassets */,
 				5F0D69C81F41ABB100099C40 /* LaunchScreen.storyboard */,
 				5F0D69CB1F41ABB100099C40 /* Info.plist */,
+				5F23D2C61F41B4510077DDA4 /* ImageViewController.swift */,
 			);
 			path = "Landmark Image Book";
 			sourceTree = "<group>";
@@ -179,6 +188,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F23D2C51F41B0990077DDA4 /* Pyramids.jpg in Resources */,
+				5F23D2C41F41B0990077DDA4 /* pisa.jpg in Resources */,
 				5F0D69CA1F41ABB100099C40 /* LaunchScreen.storyboard in Resources */,
 				5F0D69C71F41ABB100099C40 /* Assets.xcassets in Resources */,
 				5F0D69C51F41ABB100099C40 /* Main.storyboard in Resources */,
@@ -199,8 +210,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F0D69C21F41ABB100099C40 /* ViewController.swift in Sources */,
 				5F0D69C01F41ABB100099C40 /* AppDelegate.swift in Sources */,
+				5F23D2C71F41B4510077DDA4 /* ImageViewController.swift in Sources */,
+				5F23D2C11F41ADFD0077DDA4 /* ImagesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +420,7 @@
 				5F0D69DB1F41ABB100099C40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F0D69DC1F41ABB100099C40 /* Build configuration list for PBXNativeTarget "Landmark Image BookTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +429,7 @@
 				5F0D69DE1F41ABB100099C40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
